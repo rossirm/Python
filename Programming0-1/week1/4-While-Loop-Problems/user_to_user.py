@@ -1,13 +1,15 @@
 __author__ = 'Боян'
 
-start = input()
-start = int(start)
-end = input()
-end = int(end)
+s = input("Enter the first number")
+start = int(s)
+e = input("Enter the second number")
+end = int(e)
 
 greater = max(start, end)
 lesser = min(start, end)
-print("Counting from {} to {}".format(lesser, greater))
-while lesser <= greater:
-    print(lesser)
-    lesser += 1
+counter = lesser
+
+print("Counting from {0} to {1}".format(lesser, greater))
+while counter <= greater:
+    print(counter)
+    counter += 1

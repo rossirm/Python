@@ -5,6 +5,7 @@ maria_score = 1001
 ivan_score = 1001
 maria_wins = True
 ivan_wins = True
+
 while maria_wins or ivan_wins:
     counter = 1
     while counter <= 5:

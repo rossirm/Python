@@ -1,11 +1,11 @@
 __author__ = 'Боян'
 
 n = input("Enter a number")
-n = int(n)
-summed = 0
+num = int(n)
+total = 0
 
-while n > 1:
-    summed += int(n % 10)
-    n = int(n / 10)
+while num > 0:
+    total += num % 10
+    num //= 10
 
-print(summed)
+print(total)

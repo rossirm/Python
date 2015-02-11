@@ -1,11 +1,11 @@
 __author__ = 'Боян'
 
-a = input("Lower bound of the interval")
-a = int(a)
-b = input("Upper bound of the interval")
-b = int(b)
-x = input("Enter a number to be checked")
-x = int(x)
+l = input("Lower bound of the interval")
+a = int(l)
+u = input("Upper bound of the interval")
+b = int(u)
+n = input("Enter a number to be checked")
+x = int(n)
 
 if a <= x <= b:
     if x == a:

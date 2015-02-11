@@ -1,13 +1,13 @@
 __author__ = 'Боян'
 
 n = input("Enter he N-th number")
-n = int(n)
+number = int(n)
 
-number = 1
-summed = 0
+counter = 1
+total = 0
 
-while number <= n:
-    summed += number
-    number += 1
+while counter <= number:
+    total += counter
+    counter += 1
 
-print("Sum = {}".format(summed))
+print("The sum of the numbers between 1 and {} is: {}".format(number, total))

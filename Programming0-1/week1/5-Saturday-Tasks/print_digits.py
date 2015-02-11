@@ -1,8 +1,8 @@
 __author__ = 'Боян'
 
 n = input("Enter a number")
-n = int(n)
+num = int(n)
 
-while n > 1:
-    print(n % 10)
-    n = int(n / 10)
+while num > 1:
+    print(num % 10)
+    num = int(num / 10)

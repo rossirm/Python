@@ -1,9 +1,9 @@
 __author__ = 'Боян'
 
-a = input("First number")
-a = int(a)
-b = input("Second number")
-b = int(b)
+n1 = input("First number")
+a = int(n1)
+n2 = input("Second number")
+b = int(n2)
 operator = input("Operator")
 
 if operator == "+":

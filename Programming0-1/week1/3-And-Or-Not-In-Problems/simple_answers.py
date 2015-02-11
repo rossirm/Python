@@ -15,5 +15,4 @@ while conversation:
         print("Have a nice day !")
         conversation = False
     else:
-        print(
-            "Sorry, I don't understand You. I follow these laws:\n0. A robot may not harm humanity, or, by inaction, allow humanity to come to harm.\n1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n2. A robot must obey the orders given it by human beings, except where such orders would conflict with the First Law.\n3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.")
+        print("Sorry, I don't understand You.")

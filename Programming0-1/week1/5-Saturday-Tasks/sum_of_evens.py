@@ -1,14 +1,15 @@
 __author__ = 'Боян'
 
-number = input("Enter a number")
-number = int(number)
+n = input("Enter a number")
+number = int(n)
 
 counter = 1
-summed = 0
+total = 0
+
 while counter <= number:
     if counter % 2 == 0:
         print(counter)
-        summed += counter
+        total += counter
     counter += 1
 
-print(summed)
+print("The sum of all even numbers between 1 and {} is: {}".format(number, total))

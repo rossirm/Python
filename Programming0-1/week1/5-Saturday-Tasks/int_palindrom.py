@@ -2,13 +2,13 @@ __author__ = 'Боян'
 
 n = input("Enter a number")
 num = int(n)
-result = 0
+mirror = 0
 
 while num > 0:
-    result = result * 10 + num % 10
+    mirror = mirror * 10 + num % 10
     num //= 10
 
-if int(n) == result:
-    print("{0} is palindrome".format(result))
+if int(n) == mirror:
+    print("{0} is palindrome".format(mirror))
 else:
-    print("{0} is NOT palindrome".format(result))
+    print("{0} is NOT palindrome".format(mirror))

@@ -1,7 +1,7 @@
 __author__ = 'Боян'
 
-number = input("Enter a number")
-number = int(number)
+n = input("Enter a number")
+number = int(n)
 
 counter = 1
 while counter <= number:

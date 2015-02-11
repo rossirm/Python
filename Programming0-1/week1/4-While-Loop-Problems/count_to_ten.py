@@ -1,12 +1,13 @@
 __author__ = 'Боян'
 
-number = 1
-while number <= 10:
-    print(number)
-    number += 1
-print("="*10)
-number = 10
-while number >= 1:
-    print(number)
-    number -= 1
+counter = 1
+print("Counting from {0} to 10".format(counter))
+while counter <= 10:
+    print(counter)
+    counter += 1
 
+counter = 10
+print("Counting from {0} to 1".format(counter))
+while counter >= 1:
+    print(counter)
+    counter -= 1
