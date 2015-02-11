@@ -7,5 +7,4 @@ def fill_tetrahedron(edge):
     volume = sqrt(2) / 12 * edge ** 3
     return round(volume, 2)
 
-
 print(fill_tetrahedron(100))
