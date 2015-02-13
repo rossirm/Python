@@ -1,5 +1,4 @@
 __author__ = 'Боян'
-from math import sqrt
 
 # n = input("Enter a number")
 # num = int(n)
@@ -11,7 +10,7 @@ from math import sqrt
 # divisor = 1
 # while divisor < number:
 # if number % divisor == 0:
-#             divisors_sum += divisor
+# divisors_sum += divisor
 #         divisor += 1
 #
 #     if number == divisors_sum:
