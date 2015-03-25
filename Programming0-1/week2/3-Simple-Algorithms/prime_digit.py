@@ -18,10 +18,11 @@ for num in range(1, 11):
             break
         prime_checker += 1
     if is_prime:
-        prime_digits.append(num)
+        prime_digits += [num]
 # print (prime_digits)
 # checking whether the number's digits appear in the prime digits list
 has_prime = False
+
 for digit in digits:
     if int(digit) in prime_digits:
         print(digit, end=" ")
