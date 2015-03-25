@@ -9,8 +9,10 @@ counter = 1
 while counter <= nums:
     number = input("Enter number: ")
     number = int(number)
+
     if number >= max_num:
         max_num = number
+
     counter += 1
 
-print(max_num)
+print("The max is: {} ".format(max_num))

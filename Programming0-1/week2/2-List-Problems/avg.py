@@ -9,7 +9,9 @@ counter = 1
 while counter <= nums:
     number = input("Enter number: ")
     number = int(number)
+
     total += number
     counter += 1
 
-print(total / nums)
+average = total / nums
+print("The avg is: {} ".format(average))

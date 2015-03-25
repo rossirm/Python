@@ -8,10 +8,11 @@ names = []
 counter = 1
 while counter <= count_names:
     name = input("Enter a name: ")
-    names = names + [name]
+    names += [name]
     counter += 1
 
 names.sort()
-print("Sorted names :")
+
+print("Sorted names are :")
 for name in names:
     print(name)
