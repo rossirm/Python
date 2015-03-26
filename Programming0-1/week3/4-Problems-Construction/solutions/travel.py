@@ -17,6 +17,7 @@ def travel(travels):
 
     return total_sum
 
+
 print(travel([23, 24, 2]) == 48)
 print(travel([28, 5, 23]) == 50)
 print(travel([1, 1, 1, 1, 1, 1, 1, 1, 1]) == 9)

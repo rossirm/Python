@@ -9,9 +9,10 @@ def reverse_int(n):
 
     return result
 
+
 def sum_digits(n):
     result = 0
-    
+
     while n != 0:
         digit = n % 10
         result += digit
@@ -20,9 +21,10 @@ def sum_digits(n):
 
     return result
 
+
 def product_digits(n):
     product = 1
-    
+
     while n != 0:
         digit = n % 10
         product *= digit

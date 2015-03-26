@@ -2,9 +2,11 @@
 def last(items):
     return items[len(items) - 1]
 
+
 # Функцията взима списък и връща предпоследния елемент
 def before_last(items):
     return items[len(items) - 2]
+
 
 # Функцията връща списък с първите n елемента от редицата на Фибоначи
 def fib(n):
@@ -13,9 +15,9 @@ def fib(n):
 
     if n == 2:
         return [1, 1]
-    
+
     result = [1, 1]
-    
+
     while len(result) < n:
         next_fib = last(result) + before_last(result)
         result = result + [next_fib]
@@ -44,8 +46,8 @@ def to_number(numbers):
         # Умножаваме по 10^на степен = броя на цифрите на числото, с което ще съберем
         # Така си освобождаваме толова на брой места (0ли)
         multiplier = 10 ** count_digits(number)
-        result = result * multiplier + number 
-    
+        result = result * multiplier + number
+
     return result
 
 

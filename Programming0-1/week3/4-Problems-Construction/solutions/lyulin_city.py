@@ -17,6 +17,7 @@ def solution(blocks):
 
     return seen
 
+
 n = input()
 n = int(n)
 

@@ -11,5 +11,5 @@ def generate_random_list(n, start, end):
         result = result + [next_number]
 
         counter += 1
-        
+
     return result
