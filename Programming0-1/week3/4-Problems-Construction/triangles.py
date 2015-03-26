@@ -20,6 +20,7 @@ def is_pythagorean(a, b, c):
 
 def max_area(triangles):
     max_s = 0
+    max_triangle = []
     for triangle in triangles:
         a = triangle[0]
         b = triangle[1]
@@ -28,7 +29,8 @@ def max_area(triangles):
 
         if s >= max_s:
             max_s = s
+            max_triangle = triangle
+    return max_triangle, max_s
 
-    return max_s
 
-print(max_area([ [3, 4, 5], [7, 8, 9] ]))
+print(max_area([[3, 4, 5], [7, 8, 9]]))
