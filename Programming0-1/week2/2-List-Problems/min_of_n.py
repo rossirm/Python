@@ -15,4 +15,4 @@ while counter <= nums:
 
     counter += 1
 
-print("The min is: {} ".format(min_num))
+print("The min is: {0} ".format(min_num))

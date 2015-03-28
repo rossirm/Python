@@ -12,4 +12,4 @@ while counter <= nums:
     total += number
     counter += 1
 
-print("The sum of all numbers is: {}".format(total))
+print("The sum of all numbers is: {0}".format(total))

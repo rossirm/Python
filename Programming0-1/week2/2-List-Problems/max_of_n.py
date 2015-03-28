@@ -15,4 +15,4 @@ while counter <= nums:
 
     counter += 1
 
-print("The max is: {} ".format(max_num))
+print("The max is: {0} ".format(max_num))

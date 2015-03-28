@@ -10,4 +10,4 @@ while counter <= number:
     total += counter
     counter += 1
 
-print("The sum of the numbers between 1 and {} is: {}".format(number, total))
+print("The sum of the numbers between 1 and {0} is: {1}".format(number, total))

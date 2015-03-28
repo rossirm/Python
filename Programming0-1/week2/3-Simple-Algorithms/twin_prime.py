@@ -23,7 +23,7 @@ has_lesser_twin = n - 2 in prime_digits
 has_bigger_twin = n + 2 in prime_digits
 
 if n_is_prime:
-    print("{} is prime".format(num), end="")
+    print("{0} is prime".format(num), end="")
     if has_two_twins:
         print(" and has 2 twins: {0} {1}".format(n - 2, n + 2))
     elif has_lesser_twin:
@@ -34,7 +34,7 @@ if n_is_prime:
         print(" and has no twins")
 
 elif not n_is_prime:
-    print("{} is not prime".format(num), end="")
+    print("{0} is not prime".format(num), end="")
     if has_two_twins:
         print(" and has 2 twins: {0} {1}".format(n - 2, n + 2))
     elif has_lesser_twin:

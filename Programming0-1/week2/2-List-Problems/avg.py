@@ -14,4 +14,4 @@ while counter <= nums:
     counter += 1
 
 average = total / nums
-print("The avg is: {} ".format(average))
+print("The avg is: {0} ".format(average))

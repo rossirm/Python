@@ -3,6 +3,8 @@ __author__ = 'Боян'
 
 def sublist(list1, list2):
     is_sublist = False
+    if len(list2) == 0:
+        is_sublist = True
 
     for i in range(0, len(list2)):
         if list2[i] == list1[0] and list2[i:i + len(list1)] == list1:

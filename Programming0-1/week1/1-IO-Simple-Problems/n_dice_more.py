@@ -4,8 +4,6 @@ from random import randint
 dice_sides = input("How many sides the die will have ?")
 dice_sides = int(dice_sides)
 
-score = 0
-
 roll_1 = randint(1, dice_sides)
 print("You rolled " + str(roll_1))
 roll_2 = randint(1, dice_sides)
