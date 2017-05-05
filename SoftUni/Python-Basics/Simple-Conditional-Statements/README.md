@@ -1,0 +1,18 @@
+# Simple Conditional Statements
+
+01. [Excellent Result](./)
+02. [Excellent or Not](./)
+03. [Even or Odd](./)
+04. [Greater Number](./)
+05. [Number 0...9 to Text](./)
+06. [Bonus Score](./)
+07. [Sum Seconds](./)
+08. [Metric Converter](./)
+09. [Password Guess](./)
+10. [Number 100...200](./)
+11. [Equal Words](./)
+12. [Speed Info](./)
+13. [Area of Figures](./)
+14. [Time + 15 Minutes](./)
+15. [3 Equal Numbers](./)
+16. [Number 0...100 to Text](./)
