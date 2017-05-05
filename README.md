@@ -1,4 +1,4 @@
 # Python
-## [Python Course @ Hack Bulgaria](./HackBulgaria)
-## [ProSeeDure App](./ProSeeDure)
+
+## [Hack Bulgaria](./HackBulgaria)
 ## [SoftUni](./SoftUni)
