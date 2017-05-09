@@ -1,4 +1,8 @@
-a = int(input())
-b = int(input())
+# Напишете Python програма, която прочита от конзолата две числа a и b,
+# пресмята и отпечатва лицето на правоъгълник със страни a и b.
 
-print (a * b)
+a = float(input())
+b = float(input())
+area = a * b
+
+print(area)
