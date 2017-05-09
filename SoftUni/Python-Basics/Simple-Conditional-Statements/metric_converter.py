@@ -1,3 +1,6 @@
+# Да се напише програма, която преобразува разстояние между следните 8 мерни единици:
+# m, mm, cm, mi, in, km, ft, yd.
+
 millimeter = 1000
 centimeter = 100
 meter = 1
@@ -48,4 +51,4 @@ elif outputUnits == 'yd':
 elif outputUnits == 'mi':
     metricUnits *= mile
 
-print ('{0} {1}'.format(metricUnits, outputUnits))
+print('{0} {1}'.format(metricUnits, outputUnits))

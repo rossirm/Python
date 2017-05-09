@@ -1,7 +1,9 @@
+# Да се напише програма, която въвежда две цели числа и отпечатва по-голямото от двете.
+
 a = int(input())
 b = int(input())
 
 if a >= b:
-    print (a)
+    print(a)
 else:
-    print (b)
+    print(b)

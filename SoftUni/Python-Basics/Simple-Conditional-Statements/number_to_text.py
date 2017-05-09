@@ -1,3 +1,7 @@
+# Да се напише програма, която въвежда цяло число в диапазона [0…10]
+# и го изписва с думи на английски език.
+# Ако числото е извън диапазона, изписва “number too big”.
+
 number = int(input())
 
 word = ''
@@ -24,4 +28,4 @@ elif number == 9:
 else:
     word = 'number too big'
 
-print (word)
+print(word)
