@@ -1,9 +1,12 @@
-product = input()
-town = input()
+# Напишете програма, която чете от конзолата град (стринг), продукт (стринг) и количество (десетично число)
+# и пресмята и отпечатва колко струва съответното количество от избрания продукт в посочения град.
+
+product = input().lower()
+town = input().lower()
 quantity = float(input())
 
-order = 0
-if town == 'Sofia':
+order = 1
+if town == 'sofia':
     if product == 'coffee':
         order = quantity * 0.5
     elif product == 'water':
@@ -15,7 +18,7 @@ if town == 'Sofia':
     elif product == 'peanuts':
         order = quantity * 1.6
 
-if town == 'Plovdiv':
+elif town == 'plovdiv':
     if product == 'coffee':
         order = quantity * 0.4
     elif product == 'water':
@@ -27,7 +30,7 @@ if town == 'Plovdiv':
     elif product == 'peanuts':
         order = quantity * 1.5
 
-if town == 'Varna':
+elif town == 'varna':
     if product == 'coffee':
         order = quantity * 0.45
     elif product == 'water':
@@ -39,4 +42,4 @@ if town == 'Varna':
     elif product == 'peanuts':
         order = quantity * 1.55
 
-print(round(order, 2))
+print('{0:.2f}'.format(round(order, 2)))

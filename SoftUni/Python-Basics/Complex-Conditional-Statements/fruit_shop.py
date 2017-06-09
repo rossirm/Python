@@ -41,10 +41,7 @@ elif day == 'saturday' or day == 'sunday':
 else:
     has_error = True
 
-result = ''
 if not has_error:
-    result = round(order, 2)
+    print('{0:.2f}'.format(round(order, 2)))
 else:
-    result = 'error'
-
-print(result)
+    print('Error')

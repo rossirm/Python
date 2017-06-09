@@ -1,3 +1,4 @@
+# Rectangle coordinates
 x_1 = float(input())
 y_1 = float(input())
 x_2 = float(input())
