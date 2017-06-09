@@ -1,3 +1,8 @@
+# Write a program to print animal type by its name:
+# •	dog -> mammal
+# •	crocodile, tortoise, snake -> reptile
+# •	others -> unknown
+
 animal = input()
 
 animal_type = ''

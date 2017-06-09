@@ -1,3 +1,7 @@
+# Напишете програма, която чете от конзолата плод (banana / apple / orange / grapefruit / kiwi / pineapple / grapes),
+# ден от седмицата (Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday)
+# и количество (десетично число) и пресмята цената според цените
+
 product = input().lower()
 day = input().lower()
 quantity = float(input())

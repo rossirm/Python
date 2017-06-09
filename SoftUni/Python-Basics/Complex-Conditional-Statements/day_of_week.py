@@ -1,3 +1,6 @@
+# Print the day name (in English) by day number in range [1...7]
+# or prints “Error” for invalid day number.
+
 number = int(input())
 
 day = ''
