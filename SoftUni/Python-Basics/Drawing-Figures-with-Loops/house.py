@@ -8,7 +8,7 @@ new_line = '\n'
 roof_top = 2 if count % 2 == 0 else 1
 house = ''
 # Roof
-for i in range(roof_top, count + 1 // 2, 2):
+for i in range(roof_top, count, 2):
     roof = roof_top
     house += space * ((count - i) // 2) + fill * i + space * ((count - i) // 2) + new_line
     roof += 2
