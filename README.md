@@ -1,4 +1,4 @@
 # Python
 
 ## [Hack Bulgaria](./HackBulgaria)
-## [SoftUni](./SoftUni)
+## [Software University](./SoftUni)
