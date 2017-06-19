@@ -1,3 +1,6 @@
+# Напишете програма, която въвежда две цели положителни числа a и b и изчислява
+# и отпечатва най-големият им общ делител (НОД).
+
 first = int(input())
 second = int(input())
 # Swap numbers to ensure first is greater
