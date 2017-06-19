@@ -1,4 +1,7 @@
-# Python
+# Python programming courses
 
-## [Hack Bulgaria](./HackBulgaria)
-## [Software University](./SoftUni)
+## Hack Bulgaria
+### [Programming 0](./Programming0)
+
+## Software University
+### [Python Basics](./Python-Basics)
