@@ -1,9 +1,8 @@
 def evens_by_odds(number):
-    number = normalize_input(number)
-    return even_odd_product(number)
+    return even_odd_product(remove_negative(number))
 
 
-def normalize_input(number):
+def remove_negative(number):
     return number[1:] if number[0] == '-' else number
 
 
@@ -19,5 +18,4 @@ def even_odd_product(number):
     return evens * odds
 
 
-i = input()
-print(evens_by_odds(i))
+print(evens_by_odds(input()))

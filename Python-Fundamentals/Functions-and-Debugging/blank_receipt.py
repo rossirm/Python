@@ -1,19 +1,17 @@
 def create_header():
-    print('CASH RECEIPT\n------------------------------')
+    return 'CASH RECEIPT\n------------------------------\n'
 
 
 def create_body():
-    print('Charged to____________________\nReceived by___________________')
+    return 'Charged to____________________\nReceived by___________________\n'
 
 
 def create_footer():
-    print('------------------------------\n\u00A9 SoftUni')
+    return '------------------------------\n\u00A9 SoftUni'
 
 
 def create_receipt():
-    create_header()
-    create_body()
-    create_footer()
+    return create_header() + create_body() + create_footer()
 
 
-create_receipt()
+print(create_receipt())

@@ -1,5 +1,5 @@
-def print_triangle(height):
-    print(upper_part(height) + lower_part(height))
+def draw_triangle(height):
+    return upper_part(height) + lower_part(height)
 
 
 def upper_part(height):
@@ -20,4 +20,4 @@ def lower_part(height):
     return triangle
 
 
-print_triangle(int(input()))
+print(draw_triangle(int(input())))

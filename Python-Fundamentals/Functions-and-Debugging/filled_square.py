@@ -1,4 +1,4 @@
-def filled_square(size):
+def draw_filled_square(size):
     return top_bottom(size) + middle_part(size) + top_bottom(size)
 
 
@@ -16,4 +16,4 @@ def middle_part(size):
     return middle
 
 
-print(filled_square(int(input())))
+print(draw_filled_square(int(input())))

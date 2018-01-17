@@ -1,7 +1,11 @@
 def triangle_area(base, height):
-    return base * height / 2
+    return format_output(base * height / 2)
+
+
+def format_output(area):
+    return f'{area:.12g}'
 
 
 b = float(input())
 h = float(input())
-print(f'{triangle_area(b, h):.12g}')
+print(triangle_area(b, h))
