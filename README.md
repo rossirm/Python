@@ -1,9 +1,9 @@
-# Python programming courses
+# Python Courses
 
-## Hack Bulgaria
-### [Programming 0](./Programming0)
-### [Programming 101](./Programming101)
+## [Hack Bulgaria](http://hackbulgaria.com/)
+#### [Programming 0](./Programming0)
+#### [Programming 101](./Programming101)
 
-## Software University
-### [Python Basics](./Python Basics)
-### [Python Fundamentals](./Python Fundamentals)
+## [Software University](https://softuni.bg/)
+#### [Python Basics](./Python-Basics)
+#### [Python Fundamentals](./Python-Fundamentals)
