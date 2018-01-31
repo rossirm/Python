@@ -7,3 +7,4 @@
 ## [Software University](https://softuni.bg/)
 * [Python Basics](./Python-Basics)
 * [Python Fundamentals](./Python-Fundamentals)
+* [Programming Fundamentals](./Programming-Fundamentals)
