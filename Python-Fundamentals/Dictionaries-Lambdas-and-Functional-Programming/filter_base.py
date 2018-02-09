@@ -1,44 +1,29 @@
-def is_float(text):
+def check_type(text):
     try:
-        float(text)
-        return True
+        if float(text) == int(float(text)):
+            return {'Age': int(float(text))}
+        elif float(text) != int(float(text)):
+            return {'Salary': float(text)}
     except ValueError:
-        return False
+        return {'Position': text}
 
 
-def is_integer(text):
-    try:
-        int(text)
-        return True
-    except ValueError:
-        return False
-
-
-ages = {}
-salaries = {}
-positions = {}
-
-line = input()
-while line != 'filter base':
-    name, second = filter(None, line.split(' -> '))
-    if is_integer(second):
-        ages[name] = int(second)
-    elif is_float(second):
-        salaries[name] = float(second)
-    else:
-        positions[name] = second
+def fill_base(storage):
     line = input()
+    while line != 'filter base':
+        first, second = line.split(' -> ')
+        storage.append({first: check_type(second)})
+        line = input()
+    return storage
 
+
+base = []
+fill_base(base)
+table = input()
 result = ''
 separator = '=' * 20
-table = input()
-if table == 'Age':
-    for age in ages:
-        result += f'Name: {age}\nAge: {ages[age]}\n{separator}\n'
-if table == 'Salary':
-    for salary in salaries:
-        result += f'Name: {salary}\nSalary: {salaries[salary]}\n{separator}\n'
-if table == 'Position':
-    for position in positions:
-        result += f'Name: {position}\nPosition: {positions[position]}\n{separator}\n'
+for entry in range(len(base)):
+    for name, data in base[entry].items():
+        if table in data:
+            result += f'Name: {name}\n{table}: {data[table]}\n{separator}\n'
 print(result)
