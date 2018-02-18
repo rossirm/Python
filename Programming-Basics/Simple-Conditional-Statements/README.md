@@ -1,0 +1,20 @@
+# Simple Conditional Statements
+
+## [Simple Conditions - Exercises](./3-Simple-Conditions-Exercises.pdf)
+
+01. [Excellent Result](./excellent_result.py)
+02. [Excellent or Not](./excellent_or_not.py)
+03. [Even or Odd](./even_or_odd.py)
+04. [Greater Number](./greater_number.py)
+05. [Number 0...9 to Text](./number_to_text.py)
+06. [Bonus Score](./bonus_score.py)
+07. [Sum Seconds](./sum_seconds.py)
+08. [Metric Converter](./metric_converter.py)
+09. [Password Guess](./password_guess.py)
+10. [Number 100...200](./number_100-200.py)
+11. [Equal Words](./equal_words.py)
+12. [Speed Info](./speed_info.py)
+13. [Area of Figures](./area_of_figures.py)
+14. [Time + 15 Minutes](./time_add_15_minutes.py)
+15. [3 Equal Numbers](./three_equal_numbers.py)
+16. [Number 0...100 to Text](./number_to_text-100.py)
