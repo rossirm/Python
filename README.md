@@ -5,6 +5,6 @@
 * [Programming 101](./Programming101)
 
 ## [Software University](https://softuni.bg/)
-* [Python Basics](./Python-Basics)
-* [Python Fundamentals](./Python-Fundamentals)
-* [Programming Fundamentals](./Programming-Fundamentals)
+* [Programming Basics - Python](./Programming-Basics)
+* [Programming Fundamentals - Python](./Programming-Fundamentals)
+* [Python Fundamentals - Open Course](./Python-Fundamentals)
