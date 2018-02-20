@@ -1,10 +1,9 @@
 # Programming Fundamentals
 
-* [Intro and Basic Syntax - Lab](./Intro-and-Basic-Syntax-Lab)
-* [Intro and Basic Syntax - Exercises](./Intro-and-Basic-Syntax-Exercises)
-* [Conditional Statements and Loops - Lab](./Conditional-Statements-and-Loops-Lab)
-* [Conditional Statements and Loops - Exercises](./Conditional-Statements-and-Loops-Exercises)
-* [Basics - More Exercises](./Basics-More-Exercises)
+* [Intro and Basic Syntax](./Intro-and-Basic-Syntax)
+* [Conditional Statements and Loops](./Conditional-Statements-and-Loops)
+
+
 * [Data Types and Variables - Lab](./Data-Types-and-Variables-Lab)
 * [Data Types and Variables - Exercises](./Data-Types-and-Variables-Exercises)
 * [Methods. Debugging and Troubleshooting Code - Lab](./Methods-Debugging-and-Troubleshooting-Code-Lab)

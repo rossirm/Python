@@ -1,0 +1,37 @@
+# Data Types and Variables
+
+## [Lab](./03-Data-Types-and-Variables-Lab.pdf)
+
+01. [Centuries to Minutes](./centuries_to_minutes.py)
+02. [Circle Area (Precision 12)](./circle_area.py)
+03. [Exact Sum of Real Numbers](./sum_of_real_numbers.py)
+04. [Elevator](./elevator.py)
+05. [Special Numbers](./special_numbers.py)
+06. [Triples of Letters](./triples_of_letters.py)
+07. [Greeting](./greeting.py)
+08. [Refactor Volume of Pyramid](./volume_of_pyramid.py)
+09. [Refactor Special Numbers](./special_numbers.py)
+
+## [Exercises](./03-Data-Types-and-Variables-More-Exercises.pdf)
+
+01. [Practice Integers](./practice_integers.py)
+02. [Practice Floating Points](./practice_floating_points.py)
+03. [Practice Chars And Strings](./practice_chars_and_strings.py)
+04. [Variable in Hex Format](./variable_in_hex_format.py)
+05. [Boolean Variable](./boolean_variable.py)
+06. [Strings And Objects](./strings_and_objects.py)
+07. [Exchange Variable Values](./exchange_variable_values.py)
+08. [Employee Data](./employee_data.py)
+09. [Reversed chars](./reversed_chars.py)
+10. [Centuries to Nanoseconds](./centuries_to_nanoseconds.py)
+11. [Convert Speed Units](./convert_speed_units.py)
+12. [Rectangle Properties](./rectangle_roperties.py)
+13. [Vowel or Digit](./vowel_or_digit.py)
+14. [Integer to Hex and Binary](./integer_to_hex_and_binary.py)
+15. [Fast Prime Checker](./fast_prime_checker.py)
+16. [Comparing floats](./comparing_floats.py)
+17. [Print Part Of ASCII Table](./ascii_table.py)
+18. [Different Integers Size](./#)
+19. [Thea The Photographer](./thea_the_photographer.py)
+
+## [More Exercises](./03-Data-Types-and-Variables-More-Exercises.pdf)
