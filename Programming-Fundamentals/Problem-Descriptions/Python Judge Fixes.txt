@@ -1,0 +1,18 @@
+C# Conditional Statements and Loops - Exercises 
+09. Count the Integers - [4] Error catch ?
+13. Game of Numbers - [2] Time limit (passed at Time: 0.200 s)
+
+Data Types and Variables - Exercises
+18. Different Integers Size - Not applicable in python
+Data Types and Variables - More Exercises - Not applicable in python
+
+Methods. Debugging and Troubleshooting Code - Exercises
+06. Prime Checker - [last] time limit (reversing the prime check passes)
+12. Master Number - [last] time limit 
+
+Arrays - Exercises
+10. Pairs by Difference [last] time limit 
+
+Lists - Lab
+04. Split by Word Casing cannot split by multiple separators, regex time limit
+
