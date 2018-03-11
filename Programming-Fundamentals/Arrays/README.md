@@ -28,11 +28,11 @@
 
 ## [More Exercises](./05-Arrays-and-Methods-More-Exercises.pdf)
 
-01. [Array Statistics](./)
-02. [Manipulate Array](./)
-03. [Safe Manipulation](./)
-04. [Grab and Go](./)
-05. [Pizza Ingredients](./)
+01. [Array Statistics](./array_statistics.py)
+02. [Manipulate Array](./manipulate_array.py)
+03. [Safe Manipulation](./safe_manipulation.py)
+04. [Grab and Go](./grab_and_go.py)
+05. [Pizza Ingredients](./pizza_ingredients.py)
 06. [Heists](./)
 07. [Inventory Matcher](./)
 08. [Upgraded Matcher](./)
