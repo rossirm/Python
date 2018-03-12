@@ -16,3 +16,6 @@ Arrays - Exercises
 Lists - Lab
 04. Split by Word Casing cannot split by multiple separators, regex time limit
 
+Lists - Exercises
+05. Array Manipulator - [last] time limit
+
