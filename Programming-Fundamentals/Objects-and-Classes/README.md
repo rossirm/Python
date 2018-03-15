@@ -1,0 +1,22 @@
+# Objects and Classes
+
+## [Lab](./08-Objects-and-Classes-Lab.pdf)
+01. [Day of Week](./)
+02. [Randomize Words](./)
+03. [Big Factorial](./)
+04. [Distance between Points](./)
+05. [Closest Two Points](./)
+06. [Rectangle Position](./)
+07. [Sales Report](./)
+
+## [Exercises](./08-Objects-and-Classes-Exercises.pdf)
+01. [Count Working Days](./)
+02. [Advertisement Message](./)
+03. [Circles Intersection](./)
+04. [Average Grades](./)
+05. [Book Library](./)
+06. [Book Library Modification](./)
+07. [Andrey and Billiard](./)
+08. [Mentor Group](./)
+09. [Teamwork Projects](./)
+10. [Student Groups](./)

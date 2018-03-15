@@ -6,8 +6,8 @@
 * [Methods. Debugging and Troubleshooting Code](./Methods-Debugging-and-Troubleshooting-Code)
 * [Arrays](./Arrays)
 * [Lists](./Lists)
+* [Dictionaries, Lambda and LINQ](./Dictionaries-and-Lambda)
 
-* [Dictionaries, Lambda and LINQ](./)
 * [Objects and Classes](./)
 * [Strings and Text Processing](./)
 * [Regular Expressions (RegEx)](./)
