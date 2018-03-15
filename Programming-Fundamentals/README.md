@@ -7,7 +7,7 @@
 * [Arrays](./Arrays)
 * [Lists](./Lists)
 * [Dictionaries, Lambda and LINQ](./Dictionaries-and-Lambda)
+* [Objects and Classes](./Objects-and-Classes)
 
-* [Objects and Classes](./)
 * [Strings and Text Processing](./)
 * [Regular Expressions (RegEx)](./)
