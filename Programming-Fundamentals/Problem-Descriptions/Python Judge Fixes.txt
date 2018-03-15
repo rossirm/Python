@@ -14,8 +14,16 @@ Arrays - Exercises
 10. Pairs by Difference [last] time limit 
 
 Lists - Lab
-04. Split by Word Casing cannot split by multiple separators, regex time limit
+04. Split by Word Casing - cannot split by multiple separators, regex time limit
 
 Lists - Exercises
 05. Array Manipulator - [last] time limit
 
+Dictionaries, Lambda and LINQ - Lab
+5. Short Words Sorted - cannot split by multiple separators, regex time limit
+
+Dictionaries, Lambda and LINQ - Exercises
+10. Сръбско Unleashed - [(0)2, 4,5,7] time limit (0.201 passed)
+
+Dictionaries and Lists - More Exercises
+06. Byte Flip - encoding problem
