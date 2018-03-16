@@ -10,6 +10,6 @@ cities = ['Burgas', 'Sofia', 'Plovdiv', 'Varna', 'Ruse']
 count = int(input())
 messages = ''
 for m in range(count):
-    messages += f'{phrases[random.randint(0,len(phrases)-1)]} {events[random.randint(0,len(events)-1)]} ' \
-                f'{authors[random.randint(0,len(authors)-1)]} – {cities[random.randint(0,len(cities)-1)]}.\n'
+    messages += f'{phrases[random.randint(0, len(phrases) - 1)]} {events[random.randint(0, len(events) - 1)]} ' \
+                f'{authors[random.randint(0, len(authors) - 1)]} – {cities[random.randint(0, len(cities) - 1)]}.\n'
 print(messages)

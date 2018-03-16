@@ -1,10 +1,10 @@
-import random
+from random import shuffle
 
 words = input().split(' ')
-l = len(words)
+indices = [i for i in range(len(words))]
+shuffle(indices)
+
 result = ''
-while words:
-    r_index = random.randint(0, len(words) - 1)
-    result += f'{words[r_index]}\n'
-    words.pop(r_index)
+for i in indices:
+    result += f'{words[i]}\n'
 print(result)

@@ -7,6 +7,11 @@ class Rectangle:
         self.bottom = self.top + self.height
         self.right = self.left + self.width
 
+    @staticmethod
+    def build_rectangle():
+        left, top, width, height = list(map(float, input().split(' ')))
+        return Rectangle(left, top, width, height)
+
     def is_inside(self, other_rectangle):
         is_in_left = self.left >= other_rectangle.left
         is_in_right = self.right <= other_rectangle.right
@@ -15,11 +20,6 @@ class Rectangle:
         return is_in_left and is_in_right and is_in_top and is_in_bottom
 
 
-def build_rectangle():
-    coordinates = list(map(float, input().split(' ')))
-    return Rectangle(*coordinates)
-
-
-first = build_rectangle()
-second = build_rectangle()
+first = Rectangle.build_rectangle()
+second = Rectangle.build_rectangle()
 print('Inside' if first.is_inside(second) else 'Not inside')
