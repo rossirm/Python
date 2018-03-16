@@ -29,8 +29,7 @@ Dictionaries and Lists - More Exercises
 06. Byte Flip - encoding problem
 
 Objects and Simple Classes - Lab
-01. Day of Week - [all] time limit
-02. Randomize Words - [all] time limit
+02. Randomize Words - [all] time limit (passes at 0.150s)
 
 Objects and Classes - Exercises
 01. Count Working Days - [12] wrong ?
