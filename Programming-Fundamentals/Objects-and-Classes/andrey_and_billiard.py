@@ -45,22 +45,26 @@ def fill_storage():
     return stock
 
 
-andrey = Shop(fill_storage())
-clients = {}
-
-line = input()
-while line != 'end of clients':
-    client, order = line.split('-')
-    client = Client(client)
-    i, q = order.split(',')
-    q = int(q)
-    if andrey.check_availability(i):
-        if client.name not in clients:
-            client.create_order(i, q, andrey)
-            clients[client.name]=client
-        else:
-            clients[client.name].create_order(i, q, andrey)
+def serve_clients(shop):
+    client_list = {}
     line = input()
+    while line != 'end of clients':
+        client, order = line.split('-')
+        client = Client(client)
+        i, q = order.split(',')
+        q = int(q)
+        if shop.check_availability(i):
+            if client.name not in client_list:
+                client.create_order(i, q, shop)
+                client_list[client.name] = client
+            else:
+                client_list[client.name].create_order(i, q, shop)
+        line = input()
+    return client_list
+
+
+andrey = Shop(fill_storage())
+clients = serve_clients(andrey)
 
 total = 0
 for n, c in sorted(clients.items(), key=lambda x: x[0]):
