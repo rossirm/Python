@@ -1,6 +1,7 @@
 # Objects and Classes
 
 ## [Lab](./08-Objects-and-Classes-Lab.pdf)
+
 01. [Day of Week](./day_of_week.py)
 02. [Randomize Words](./randomize_words.py)
 03. [Big Factorial](./big_factorial.py)
@@ -10,6 +11,7 @@
 07. [Sales Report](./sales_report.py)
 
 ## [Exercises](./08-Objects-and-Classes-Exercises.pdf)
+
 01. [Count Working Days](./count_working_days.py)
 02. [Advertisement Message](./advertisement_message.py)
 03. [Circles Intersection](./circles_intersection.py)
