@@ -1,22 +1,18 @@
 text = input()
-# TODO regex splitting
-words = filter(None, text.split())
-print(words)
+separators = [',', ';', ':', '.', '!', '(', ')', '"', "'", '\\', '/', '[', ']','?']
+
+for s in separators:
+    text = text.replace(s, ' ')
+text = filter(None, text.split(' '))
+
 lower_case = []
 upper_case = []
 mixed_case = []
-for word in words:
-    are_lower = True
-    are_upper = True
-    # print(words)
-    for char in word:
-        if char.islower() or char.isdigit():
-            are_upper = False
-        elif char.isupper() or char.isdigit():
-            are_lower = False
-    if are_lower:
+
+for word in text:
+    if all((c.isalpha() and not c.isdigit() and c.islower()) for c in word):
         lower_case.append(word)
-    elif are_upper:
+    elif all((c.isalpha() and not c.isdigit() and c.isupper()) for c in word):
         upper_case.append(word)
     else:
         mixed_case.append(word)

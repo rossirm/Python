@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 
 
 class Town:
@@ -27,10 +27,16 @@ class Town:
 
 
 class Student:
-    def __init__(self, name, mail, date):
+    def __init__(self, name, mail, registration_date):
         self.name = name
         self.mail = mail
-        self.date = date
+        self.registration_date = registration_date
+
+
+def parse_month(month):
+    months = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+              'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
+    return months[month]
 
 
 towns = []
@@ -48,7 +54,7 @@ while line != 'End':
 
         s_name, s_mail, raw_date = line.split('|')
         d, m, y = raw_date.split('-')
-        reg_date = datetime.strptime(raw_date.strip(), '%d-%b-%Y')
+        reg_date = date(year=int(y), month=parse_month(m), day=int(d))
         current_student = Student(s_name.strip(), s_mail.strip(), reg_date)
         current_town.register_student(current_student)
 
