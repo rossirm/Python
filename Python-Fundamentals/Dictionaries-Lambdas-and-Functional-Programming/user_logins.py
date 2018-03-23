@@ -1,4 +1,5 @@
 users = {}
+
 line = input()
 while line != 'login':
     username, password = filter(None, line.split(' -> '))

@@ -1,4 +1,5 @@
 dictionary = {}
+
 line = input()
 while line != 'end':
     name, value = line.split(' = ')

@@ -1,5 +1,7 @@
 # Python Introduction
 
+## [Exercises](./01-Python-Fundamentals-Python-Intro-Exercises.pdf)
+
 01. [Hello World](./hello_world.py)
 02. [Person Info](./person_info.py)
 03. [Extended Person Info](./extended_person_info.py)

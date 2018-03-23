@@ -1,9 +1,3 @@
-name = input()
-age = int(input())
-town = input()
-salary = float(input())
-
-
 def check_age(some_age):
     if some_age < 18:
         return 'teen'
@@ -22,6 +16,10 @@ def check_salary(some_salary):
         return 'high'
 
 
-print(
-    f'Name: {name}\nAge: {age}\nTown: {town}\nSalary: ${salary:.2f}\n'
-    f'Age range: {check_age(age)}\nSalary range: {check_salary(salary)}')
+name = input()
+age = int(input())
+town = input()
+salary = float(input())
+
+print(f'Name: {name}\nAge: {age}\nTown: {town}\nSalary: ${salary:.2f}\n'
+      f'Age range: {check_age(age)}\nSalary range: {check_salary(salary)}')

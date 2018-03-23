@@ -1,4 +1,5 @@
 phones = {}
+
 line = input()
 while line != 'Over':
     name, number = line.split(' : ')

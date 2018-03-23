@@ -1,5 +1,7 @@
 # Lists
 
+## [Exercises](./03-Python-Fundamentals-Lists-Exercises.pdf)
+
 01. [Sum List Items](./sum_list_items.py)
 02. [Multiply a List of Integers](./multiply_list_of_integers.py)
 03. [Smallest Item in List](./smallest_item_in_list.py)

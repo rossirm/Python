@@ -1,5 +1,7 @@
 # Functions and Debugging
 
+## [Exercises](./02-Python-Fundamentals-Functions-and-Debugging-Exercises.pdf)
+
 01. [Blank Receipt](./blank_receipt.py)
 02. [Sign of Integer Number](./sign_of_integer_number.py)
 03. [Printing Triangle](./printing_triangle.py)

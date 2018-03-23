@@ -1,4 +1,6 @@
-# Dictionaries and Functional Programming
+# Dictionaries, Lambdas and Functional Programming
+
+## [Exercises](./04-Python-Fundamentals-Dictionaries-Lambdas-and-Functional-Programming-Exercises.pdf)
 
 01. [Odd Occurrences](./odd_occurrences.py)
 02. [Count Real Numbers](./count_real_numbers.py)

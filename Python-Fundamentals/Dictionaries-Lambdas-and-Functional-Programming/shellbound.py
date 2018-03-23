@@ -1,4 +1,5 @@
 shells = {}
+
 line = input()
 while line != 'Aggregate':
     regions, size = line.split(' ')
