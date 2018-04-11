@@ -6,16 +6,15 @@ class Point:
         self.x = x
         self.y = y
 
+    def measure_distance(self, other_point):
+        x = abs(self.x - other_point.x)
+        y = abs(self.y - other_point.y)
+        return sqrt(x ** 2 + y ** 2)
+
 
 def build_point():
     coordinates = list(map(float, input().split(' ')))
     return Point(*coordinates)
-
-
-def measure_distance(a, b):
-    x = abs(a.x - b.x)
-    y = abs(a.y - b.y)
-    return sqrt(x ** 2 + y ** 2)
 
 
 points = []
@@ -25,13 +24,13 @@ for i in range(count):
 
 distance = float('Infinity')
 last_point = len(points)
-closest_points = [0, 0]
-for f in range(last_point):
-    for s in range(f + 1, last_point):
-        current_distance = measure_distance(points[f], points[s])
+closest_points = [None, None]
+for a in range(last_point):
+    for b in range(a + 1, last_point):
+        current_distance = points[a].measure_distance(points[b])
         if current_distance < distance:
             distance = current_distance
-            closest_points = [f, s]
+            closest_points = [a, b]
 
 print(f'{distance:.3f}\n'
       f'({points[closest_points[0]].x:g}, {points[closest_points[0]].y:g})\n'

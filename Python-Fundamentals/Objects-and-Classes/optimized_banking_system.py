@@ -32,4 +32,5 @@ def print_info(accounts):
 
 data_base = []
 create_accounts(data_base)
+
 print_info(sort_accounts(data_base))

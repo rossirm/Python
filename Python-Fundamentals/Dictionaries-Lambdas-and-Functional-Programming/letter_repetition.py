@@ -1,13 +1,14 @@
 text = input()
 
-count = {}
+letters = {}
 for letter in text:
-    if letter in count:
-        count[letter] += 1
-    else:
-        count[letter] = 1
+    if letter not in letters:
+        letters[letter] = 0
+
+    letters[letter] += 1
 
 result = ''
-for key in count:
-    result += f'{key} -> {count[key]}\n'
+for letter, times in letters.items():
+    result += f'{letter} -> {times}\n'
+
 print(result)

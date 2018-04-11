@@ -1,7 +1,3 @@
-def draw_triangle(height):
-    return upper_part(height) + lower_part(height)
-
-
 def upper_part(height):
     triangle = ''
     for r in range(1, height):
@@ -20,4 +16,9 @@ def lower_part(height):
     return triangle
 
 
-print(draw_triangle(int(input())))
+def draw_triangle(height):
+    return upper_part(height) + lower_part(height)
+
+
+n = int(input())
+print(draw_triangle(n))

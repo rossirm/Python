@@ -28,5 +28,5 @@ def search_wardrobe(storage, wear_color, wear_clothing):
 wardrobe = {}
 fill_wardrobe(wardrobe)
 
-wear = input().split(' ', 2)
-search_wardrobe(wardrobe, wear[0], wear[1])
+colour, wear, *rest = input().split(' ', 2)
+search_wardrobe(wardrobe, colour, wear)

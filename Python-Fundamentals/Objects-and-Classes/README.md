@@ -1,6 +1,6 @@
 # Objects and Classes
 
-[Exercises](./05-Python-Fundamentals-Objects-and-Classes-Exercise.pdf)
+## [Exercises](./05-Python-Fundamentals-Objects-and-Classes-Exercise.pdf)
 
 01. [Distance Between Points](./distance_between_points.py)
 02. [Closest Two Points](./closest_two_points.py)

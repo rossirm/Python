@@ -12,6 +12,7 @@ while line != 'Over':
     line = input()
 
 result = ''
-for entry in sorted(phones):
-    result += f'{entry} -> {phones[entry]}\n'
+for entry, phone in sorted(phones.items()):
+    result += f'{entry} -> {phone}\n'
+
 print(result)

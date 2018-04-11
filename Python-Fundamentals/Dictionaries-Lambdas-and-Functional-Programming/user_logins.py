@@ -9,6 +9,7 @@ while line != 'login':
 
 result = ''
 attempts = 0
+
 line = input()
 while line != 'end':
     username, password = filter(None, line.split(' -> '))
@@ -21,4 +22,5 @@ while line != 'end':
     line = input()
 
 result += f'unsuccessful login attempts: {attempts}\n'
+
 print(result)

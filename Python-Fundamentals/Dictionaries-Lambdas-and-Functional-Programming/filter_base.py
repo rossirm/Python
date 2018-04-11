@@ -13,12 +13,14 @@ def fill_base(storage):
     while line != 'filter base':
         first, second = line.split(' -> ')
         storage.append({first: check_type(second)})
+
         line = input()
     return storage
 
 
 base = []
 fill_base(base)
+
 table = input()
 result = ''
 separator = '=' * 20
@@ -26,4 +28,5 @@ for entry in range(len(base)):
     for name, data in base[entry].items():
         if table in data:
             result += f'Name: {name}\n{table}: {data[table]}\n{separator}\n'
+
 print(result)

@@ -3,9 +3,8 @@ lists.reverse()
 
 numbers = []
 for l in lists:
-    filtered = list(filter(None, l.split(' ')))
-    for number in filtered:
-        numbers.append(number)
+    numbers.extend(list(filter(None, l.split(' '))))
 
 result = ' '.join([str(number) for number in numbers])
+
 print(result)

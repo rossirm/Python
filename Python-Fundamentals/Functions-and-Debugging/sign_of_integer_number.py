@@ -7,4 +7,5 @@ def check_sign(number):
         return f'The number {number} is zero.'
 
 
-print(check_sign(int(input())))
+n = int(input())
+print(check_sign(n))

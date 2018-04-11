@@ -1,4 +1,4 @@
-numbers = [int(number) for number in input().split()]
+numbers = [int(number) for number in input().split(' ')]
 
 result = ''
 for (index, number) in enumerate(numbers):

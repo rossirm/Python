@@ -22,4 +22,5 @@ def build_rectangle():
 
 first = build_rectangle()
 second = build_rectangle()
+
 print('Inside' if first.is_inside(second) else 'Not inside')

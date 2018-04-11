@@ -22,6 +22,7 @@ while line != 'end':
         hosts, domains, queries = parts
         queries = queries.split(',')
         sites.append(Website(hosts, domains, queries))
+
     line = input()
 
 for site in sites:

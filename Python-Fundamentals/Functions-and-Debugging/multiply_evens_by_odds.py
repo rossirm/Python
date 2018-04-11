@@ -1,7 +1,3 @@
-def evens_by_odds(number):
-    return even_odd_product(remove_negative(number))
-
-
 def remove_negative(number):
     return number[1:] if number[0] == '-' else number
 
@@ -16,6 +12,10 @@ def even_odd_product(number):
         elif current % 2 != 0:
             odds += current
     return evens * odds
+
+
+def evens_by_odds(number):
+    return even_odd_product(remove_negative(number))
 
 
 print(evens_by_odds(input()))

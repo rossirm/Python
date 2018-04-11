@@ -13,6 +13,7 @@ while line != 'end':
     line = input()
 
 result = ''
-for entry in dictionary:
-    result += f'{entry} === {dictionary[entry]}\n'
+for entry, total in dictionary.items():
+    result += f'{entry} === {total}\n'
+
 print(result)

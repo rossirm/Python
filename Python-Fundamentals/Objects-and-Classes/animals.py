@@ -53,6 +53,7 @@ while line != 'I\'m your Huckleberry':
             for current_name, current_animal in animal.items():
                 if current_name == some_name:
                     print(current_animal.produce_sound())
+
         line = input()
     else:
         class_name, animal_name, animal_age, animal_parameter = line.split(' ')
@@ -62,6 +63,7 @@ while line != 'I\'m your Huckleberry':
             animals['cats'].update({animal_name: Cat(animal_name, animal_age, animal_parameter)})
         elif class_name == 'Snake':
             animals['snakes'].update({animal_name: Snake(animal_name, animal_age, animal_parameter)})
+
         line = input()
 
 for s, animal in animals.items():

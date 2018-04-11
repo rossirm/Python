@@ -32,12 +32,13 @@ class Box:
 boxes = []
 line = input()
 while line != 'end':
-    coords = line.split(' | ')
+    coordinates = line.split(' | ')
     points = []
-    for point in coords:
-        x, y = list(map(int, point.split(':')))
-        points.append(Point(x, y))
+    for point in coordinates:
+        position_x, position_y = list(map(int, point.split(':')))
+        points.append(Point(position_x, position_y))
     boxes.append(Box(points))
+
     line = input()
 
 for box in boxes:
