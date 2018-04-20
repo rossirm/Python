@@ -19,4 +19,5 @@ palindromes = {}
 for w in words:
     if check_palindrome(w):
         palindromes[w] = True
+
 print(', '.join(sorted(palindromes, key=str.lower)))
