@@ -11,7 +11,7 @@ while line != 'end':
     try:
         middle = line[longest:len(line) - longest]
         left = line[:longest]
-        right= line[len(line) - longest]
+        right = line[len(line) - longest]
         if left == right:
             print(f'{middle}{right}{middle}')
     except IndexError:
