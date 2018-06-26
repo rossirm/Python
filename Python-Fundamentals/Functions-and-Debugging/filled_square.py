@@ -13,7 +13,7 @@ def middle_part(size):
 
 
 def draw_filled_square(size):
-    return top_bottom(size) + middle_part(size) + top_bottom(size)
+    return f'{top_bottom(size)}{middle_part(size)}{top_bottom(size)}'
 
 
 n = int(input())

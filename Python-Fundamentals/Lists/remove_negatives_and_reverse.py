@@ -1,6 +1,7 @@
 numbers = [int(number) for number in input().split(' ')]
 
 positives = [x for x in numbers if x >= 0]
+
 result = ''
 if not positives:
     result = 'empty'

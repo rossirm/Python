@@ -17,7 +17,7 @@ def lower_part(height):
 
 
 def draw_triangle(height):
-    return upper_part(height) + lower_part(height)
+    return f'{upper_part(height)}{lower_part(height)}'
 
 
 n = int(input())

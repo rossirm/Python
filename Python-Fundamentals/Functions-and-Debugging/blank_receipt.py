@@ -11,7 +11,7 @@ def create_footer():
 
 
 def create_receipt():
-    return create_header() + create_body() + create_footer()
+    return f'{create_header()}{create_body()}{create_footer()}'
 
 
 print(create_receipt())
